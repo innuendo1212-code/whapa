@@ -395,7 +395,7 @@ To export chats on an iOS phone, here are the steps:
 
         self.notewhacipher = ttk.Notebook(self.tab2)
         self.tabwhacipher1 = Frame(self.notewhacipher)
-        self.tabwhacipher2 = Frame(self.notewhacipher)
+        self.tabwhacipher2 = Frame(whacipher3)
         self.notewhacipher.add(self.tabwhacipher1, text="Decrypt", compound='left', padding=0)
         self.notewhacipher.add(self.tabwhacipher2, text="Encrypt", compound='left', padding=0)
         self.notewhacipher.grid(row=1, padx=5, pady=5, sticky="we")
